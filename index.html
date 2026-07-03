@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>temperature converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h3>This is temperature converter</h3>
+    
+    <br><br>
+    
+    <div>
+        <label for="temp">
+            Enter temperature:
+        </label>
+        <br><br>
+        <input type="number" id="temp" placeholder="Enter temperature : ">
+    </div>
+    
+    <br><br><br>
+    
+    <div>
+        <label for="inputscale">Input scale:</label>
+        <br><br>
+        <select id="inputscale">
+            <option value="" selected disabled>Select scale</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="rankine">Rankine</option>
+            <option value="romer">Romer</option>
+        </select>
+    </div>
+    
+    <br><br><br>
+    
+    <div>
+        <label for="outputscale">Output scale:</label>
+        <br><br>
+        <select id="outputscale">
+            <option value="" selected disabled>Select scale</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="rankine">Rankine</option>
+            <option value="romer">Romer</option>
+        </select>
+    </div>
+    
+    <br><br><br>
+    
+    <div>
+        <button id="convert" type="button">Convert</button>
+        <p id="result">result will appear here: wait!</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
